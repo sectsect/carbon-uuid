@@ -1,0 +1,19 @@
+{
+  "name": "sectsect/carbon-uuid",
+  "description": "Provides an UUID field for Carbon Fields",
+  "version": "1.0.0-rc1",
+  "keywords": ["wordpress", "carbon-field"],
+  "homepage": "https://github.com/sectsect/carbon-uuid",
+  "type": "library",
+  "license": "MIT",
+  "authors": [],
+  "require": {},
+  "autoload": {
+    "files": [
+      "field.php"
+    ],
+    "psr-4": {
+      "sectsect\\carbonfields\\uuid\\": "core"
+    }
+  }
+}
