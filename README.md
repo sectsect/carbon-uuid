@@ -1,10 +1,10 @@
 # Carbon Field: uuid
 
-Provides an UUID field for Carbon Fields
+Provides an UUID(v4) field for Carbon Fields
 
 Adds a `uuid` field type to Carbon Fields. Install using Composer:
 
-```cli
+```bash
 composer require sectsect/carbon-uuid
 ```
 

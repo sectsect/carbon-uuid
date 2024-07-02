@@ -1,2 +1,15 @@
 .DS_Store
+Thumbs.db
+wp-cli.local.yml
 node_modules/
+*.sql
+*.tar.gz
+*.zip
+
+/vendor/
+
+.tsbuildinfo
+
+# PHPUnit
+/.phpunit.cache
+.phpunit.result.cache

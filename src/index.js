@@ -7,7 +7,7 @@ import { registerFieldType } from '@carbon-fields/core';
  * Internal dependencies.
  */
 import './style.scss';
-import uniqid from './main';
+import Field from './App';
 
-registerFieldType( 'uniqid', uniqid );
+registerFieldType( 'uuid', Field );
 

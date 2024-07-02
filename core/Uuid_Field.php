@@ -8,7 +8,7 @@ class Uuid_Field extends Field
 {
 	public static function admin_enqueue_scripts()
 	{
-		$root_uri = \Carbon_Fields\Carbon_Fields::directory_to_url(CARBON_FIELD_UUID_DIR);
+		$root_uri = \Carbon_Fields\Carbon_Fields::directory_to_url( CARBON_FIELD_UUID_DIR );
 
 		wp_enqueue_script('uuid', $root_uri . '/dist/bundle.js', ['carbon-fields-core'], CARBON_FIELD_UUID_VERSION);
 		wp_enqueue_style('uuid', $root_uri . '/dist/bundle.css', [], CARBON_FIELD_UUID_VERSION);

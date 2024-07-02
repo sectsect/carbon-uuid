@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'sectsect/carbon-uuid',
-        'pretty_version' => '1.0.0-rc1',
-        'version' => '1.0.0.0-RC1',
-        'reference' => null,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '0f326c08ff87771a707400b755cbc7e3afa5756c',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'sectsect/carbon-uuid' => array(
-            'pretty_version' => '1.0.0-rc1',
-            'version' => '1.0.0.0-RC1',
-            'reference' => null,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '0f326c08ff87771a707400b755cbc7e3afa5756c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

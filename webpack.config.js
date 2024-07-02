@@ -75,7 +75,8 @@ module.exports = {
     } ),
 
     new ProvidePlugin( {
-      'wp.element': '@wordpress/element'
+      'wp.element': '@wordpress/element',
+      'React': 'react'
     } ),
 
     ...(
