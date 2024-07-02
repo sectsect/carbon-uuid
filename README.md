@@ -1,5 +1,7 @@
 # Carbon Field: uuid
 
+Forked from [iamntz/carbon-uniqid](https://github.com/iamntz/carbon-uniqid).
+
 Provides an UUID(v4) field for Carbon Fields
 
 Adds a `uuid` field type to Carbon Fields. Install using Composer:
@@ -8,10 +10,10 @@ Adds a `uuid` field type to Carbon Fields. Install using Composer:
 composer require sectsect/carbon-uuid
 ```
 
-Usage:
+Usage example:
 
 ```php
-Field::make( 'uuid', .... );
+Field::make( 'uuid', 'my_uuid' );
 ```
 
 ### License
