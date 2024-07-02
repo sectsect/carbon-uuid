@@ -35,7 +35,6 @@ public/wp-admin/
 public/wp-includes/
 public/wp-content/uploads/
 public/wp-config.php
-public/wp-content/themes/casabrutus2022/lib/import2022/
 
 # Composer
 vendor/
